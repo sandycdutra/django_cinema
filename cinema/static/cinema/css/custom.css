@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Anton+SC&display=swap);
+
+header {
+    background-color: rgb(10, 14, 29);
+    opacity: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fffef6;
+}
+
+nav {
+    font-family: "Anton SC", sans-serif;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p_about {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fffef6;
+    text-align: center;
+}
+
+.link_nav {
+    margin: 0 20px 0 20px;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fffef6;
+}
+
+.titulo_header {
+    font-family: "Anton SC", sans-serif;
+    font-size: 45px;
+    padding: 30px;
+    text-align: left;
+    font-size: 60px;
+    color: #fffef6;
+}
+
+.titulo_pagina {
+    font-family: 'Lora', serif;
+    letter-spacing: 1px;
+    margin: 40px;
+    text-align: center;
+    font-size: 60px;
+    color: #fffef6;
+}
+
+body {
+    background-position: center;
+    background-repeat: repeat;
+    background-image: url(../../media/background/background_cinema.jpg);
+    background-size: 300px;
+}
+
+.card-shadow-yellow {
+    box-shadow: 0 0 10px #fdf6a9;
+    /* text-shadow: 0px 0px 10px #000000; deslocamento horizontal | deslocamento vertical | espalhamento da sombra | cor*/
+}
+
+.seat-btn {
+    width: 60px;
+    height: 60px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.seat-row {
+    margin-top: 20px;
+}
+.seat-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.confirmation-card {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+}
+.btn-confirm {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.btn-home {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+}
