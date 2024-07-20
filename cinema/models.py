@@ -51,7 +51,7 @@ class Seat(models.Model):
     status = models.CharField(max_length=12, choices=STATUS_CHOICES, default='available')
 
     def __str__(self):
-        return f"{self.session.movie_theater.theater_name} - Cadeira {self.line}{self.column}"
+        return f"{self.session.movie}, dia {self.session.date} | {self.session.movie_theater.theater_name} - Cadeira {self.line}{self.column}"
 
 
 class Booking(models.Model):

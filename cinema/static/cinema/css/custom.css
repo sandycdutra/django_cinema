@@ -11,6 +11,22 @@ header {
     border-bottom: 1px solid #fffef6;
 }
 
+.mini_header {
+    background-color: rgb(10, 14, 29);
+    opacity: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fffef6;
+    font-size: 10px;
+    padding: 10px 20px 0px 20px;
+    font-family: "Anton SC", sans-serif;
+    font-size: 45px;
+    text-align: left;
+    color: #fffef6;
+}
+
 nav {
     font-family: "Anton SC", sans-serif;
     padding: 30px;
@@ -37,7 +53,6 @@ nav {
     font-size: 45px;
     padding: 30px;
     text-align: left;
-    font-size: 60px;
     color: #fffef6;
 }
 
