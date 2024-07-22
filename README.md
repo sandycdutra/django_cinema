@@ -6,6 +6,7 @@
 The project consists in a simulation of a cinema ticket-buying website, with a database that stores the movies on display (and its details), the movie theaters, the sessions, the seats and its availability.
 ### Home page
 ![](screenshots/home_page.png)
+![](screenshots/home_page_2.png)
 ### Movie detail (Choose the session)
 ![](screenshots/movie_detail.png)
 ### Choosing the seat
@@ -40,4 +41,4 @@ pip install -r requirements/local.txt
 python manage.py migrate
 python manage.py runserver
 ```
-Running in ``` http://127.0.0.1:8000 ```
+Running in ``` http://127.0.0.1:8000/home ```
