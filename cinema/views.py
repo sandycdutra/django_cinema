@@ -14,7 +14,7 @@ def movie_detail(request, movie_id):
     sessions = Session.objects.filter(movie=movie)
     return render(request, 'cinema/movie_detail.html', {'movie': movie, 'sessions': sessions})
 
-def session_detail(request, movie_id,session_id):
+def session_detail(request, movie_id, session_id):
     session = get_object_or_404(Session, id=session_id)
     movie = get_object_or_404(Movie, id=movie_id)
     seats = Seat.objects.filter(session=session)

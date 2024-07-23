@@ -1,13 +1,13 @@
-# populate_seats.py
+# Automatizando preenchimento do banco de dados
+# Enchendo uma sessão de cadeiras
 
 from django.core.management.base import BaseCommand
 from cinema.models import Session, Seat
 
 class Command(BaseCommand):
-    help = 'Populates the database with seats for a given session'
 
     def add_arguments(self, parser):
-        parser.add_argument('session_id', type=int, help='ID of the session to populate seats for')
+        parser.add_argument('session_id', type=int)
 
     def handle(self, *args, **kwargs):
         session_id = kwargs['session_id']
